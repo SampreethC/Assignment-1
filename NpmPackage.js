@@ -1,3 +1,4 @@
+//NPM package to check eve or odd
 module.exports={
     eve:function(a){
     if(a%2==0)
@@ -9,3 +10,9 @@ module.exports={
     }
 }
 };
+
+
+//Using that package
+var app=require('self-eve-odd');
+
+var result=app.eve(4);
