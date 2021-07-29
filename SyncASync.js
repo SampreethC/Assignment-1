@@ -14,16 +14,13 @@ function getWork(){
     }
     console.log("w2");
 }
-
 console.log("w1");
 getWork();
 console.log("w3");
 
 //Asynchronous
 console.log("w1");
-
-setTimeout(()=>{
-  
+setTimeout(()=>{ 
     console.log("w2");
 },3000);
 console.log("w3");
