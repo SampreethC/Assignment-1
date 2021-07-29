@@ -3,8 +3,7 @@ let fruits=["apple","banana","mango"];
 const getFruits=()=>{
   setTimeout(()=>{fruits.forEach(data=>{
     console.log(data);
-  });},1000);
-  
+  });},1000); 
 }
 
 const postFruit=(fruit,callback)=>{
